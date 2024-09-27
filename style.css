@@ -1,0 +1,138 @@
+span{
+    color: rgb(233, 203, 8);
+   
+}
+.color{
+    background-color: rgba(255, 255, 128, 0.323);
+    border-radius: 20px;
+    color: rgb(255, 255, 0);
+    
+}
+
+.icon{
+    color: yellow;
+    background-color: white;
+    width: 30px; height: 30px;
+    border: solid 1px yellow;
+    border-radius: 50%;
+    padding: 7px;
+    
+}
+
+.ordar{
+
+   font-size: 40px;
+   color: white;
+   margin-bottom: 20px;
+width: 100px;
+height: 60px;
+border-radius: 50%;
+padding: 10px;
+}
+.head{
+    margin: auto;
+    width: 600px;
+   
+}
+
+.phrgraph{
+    color: white;
+    width: 90px;
+    border-radius: 20px;
+}
+.dow{
+   background-color: rgba(255, 231, 202, 0.881);
+  padding: 80px;
+  border-radius: 10px;
+}
+.infoo{
+   margin-left: 80px;
+    text-align: center;
+    width: 90%;
+    box-shadow: 5px 2px 8px 5px rgba(0, 0, 0, 0.333);
+    border-radius: 20px;
+
+}
+.infoo i{
+    color: white;
+    background-color: rgb(231, 201, 8);
+    width: 40px; height: 40px;
+    padding: 4px;
+    font-size: 30px;
+    margin: 5px;
+    /* border: solid rgb(255, 200, 0) 1px; */
+    border-radius: 50%;
+
+
+}
+.infooo{
+    top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+}
+.info{
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: end;
+}
+.phone{
+    margin-left: 120px;
+    animation: phon 2s infinite;
+
+   
+
+}
+@keyframes phon{
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.flood{
+    background-color: rgb(6, 6, 74);
+    border-radius: 10px;
+    padding: 30px;
+}
+.flood p,h5,h4 ,i{
+    color: white;
+}
+.flood i:hover{
+    cursor: pointer;
+    color: rgb(236, 213, 6);
+    
+}
+.flood .lin::after{
+    content: "";
+    background-color: white;
+    position: absolute;
+    transform: translateX(8px);
+    width: 1.5px;
+    height: 30px;
+}
+.quiz p:hover{
+color: yellow;
+cursor: pointer;
+}
+ .shire input{
+    width: 280px;height: 60px;
+    position: relative;
+    text-align: start;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px orange;
+ }
+ .shire i{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(255, 182, 46);
+    border-radius: 10px;
+    width: 50px; height: 40px;
+    padding: 8px;
+    top: 5px;
+    transform: translateX(-60px);
+ }
