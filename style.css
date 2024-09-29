@@ -54,16 +54,43 @@ padding: 10px;
 
 }
 .infoo i{
+    opacity: .7;
     color: white;
     background-color: rgb(231, 201, 8);
-    width: 40px; height: 40px;
+    width: 30px; height: 30px;
     padding: 4px;
-    font-size: 30px;
-    margin: 5px;
+    font-size: 25px;
+    margin: 8px;
+
     /* border: solid rgb(255, 200, 0) 1px; */
     border-radius: 50%;
 
 
+}
+.scroll{
+   
+        width: 50px; height: 40px;
+        font-size: 30px; background-color: orange; 
+        
+        border: none;
+        cursor: pointer; color: white; border-radius: 10px;
+        position:fixed;
+        display: none;
+        left: 95%; top: 92%;
+        animation: scroo 1s infinite ;
+        transition: 5s ;
+      
+    
+}
+@keyframes scroo{
+    50%{
+        transform: translateY(10px);
+        transition: 1s;
+    }
+    100%{
+        transform: translateY(0);
+        transition: 1s;
+    }
 }
 .infooo{
     top: 30px;
@@ -96,6 +123,7 @@ padding: 10px;
     background-color: rgb(6, 6, 74);
     border-radius: 10px;
     padding: 30px;
+    width: 100%;
 }
 .flood p,h5,h4 ,i{
     color: white;
